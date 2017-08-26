@@ -29,6 +29,7 @@
   </parent>
 
   <artifactId>maven-resolver-util</artifactId>
+  <packaging>bundle</packaging>
 
   <name>Maven Artifact Resolver Utilities</name>
   <description>
@@ -36,7 +37,8 @@
   </description>
 
   <properties>
-    <AutomaticModuleName>org.apache.maven.resolver.util</AutomaticModuleName>
+    <Automatic-Module-Name>org.apache.maven.resolver.util</Automatic-Module-Name>
+    <Bundle-SymbolicName>${Automatic-Module-Name}</Bundle-SymbolicName>
   </properties>
 
   <dependencies>
